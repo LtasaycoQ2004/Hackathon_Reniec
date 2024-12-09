@@ -1,0 +1,6 @@
+pe/edu/vallegrande/api/repository/DniRepository.class
+pe/edu/vallegrande/api/config/WebConfig.class
+pe/edu/vallegrande/api/model/DniModel.class
+pe/edu/vallegrande/api/ApiApplication.class
+pe/edu/vallegrande/api/rest/DniRest.class
+pe/edu/vallegrande/api/service/DniService.class

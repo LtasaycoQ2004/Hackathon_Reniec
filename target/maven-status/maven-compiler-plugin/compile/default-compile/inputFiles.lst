@@ -1,0 +1,6 @@
+/workspaces/Hackathon_Reniec/src/main/java/pe/edu/vallegrande/api/ApiApplication.java
+/workspaces/Hackathon_Reniec/src/main/java/pe/edu/vallegrande/api/config/WebConfig.java
+/workspaces/Hackathon_Reniec/src/main/java/pe/edu/vallegrande/api/model/DniModel.java
+/workspaces/Hackathon_Reniec/src/main/java/pe/edu/vallegrande/api/repository/DniRepository.java
+/workspaces/Hackathon_Reniec/src/main/java/pe/edu/vallegrande/api/rest/DniRest.java
+/workspaces/Hackathon_Reniec/src/main/java/pe/edu/vallegrande/api/service/DniService.java

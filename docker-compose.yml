@@ -1,0 +1,12 @@
+version: '4'
+services:
+  app1:
+    image: hackathon_luistasayco_backend
+    ports:
+      - "8080:8080"
+    environment:
+      DATABASE_URL: r2dbc:postgresql://ep-aged-wind-a5enixuk.us-east-2.aws.neon.tech/neondb?sslmode=require
+      DATABASE_USER: neondb_owner
+      DATABASE_PASSWORD: 4yAJol2zpRgk
+      TOKEN_API: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Imp1bGlvLnF1aXNwZUB2YWxsZWdyYW5kZS5lZHUucGUifQ.6M-P2QMMvKFZEeMvTUXvkOooM02N_pWqt0OdlaYW3PM
+  

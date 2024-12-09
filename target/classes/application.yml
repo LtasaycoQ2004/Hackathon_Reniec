@@ -3,10 +3,14 @@ server:
 
 spring:
   application:
-    name: ip-query-service
+    name: reniec-service
   r2dbc:
-    url: r2dbc:postgresql://ep-aged-wind-a5enixuk.us-east-2.aws.neon.tech/neondb?sslmode=require
-    username: neondb_owner
-    password: 4yAJol2zpRgk
+    url: ${DATABASE_URL}
+    # r2dbc:postgresql://ep-aged-wind-a5enixuk.us-east-2.aws.neon.tech/neondb?sslmode=require
+    username: ${DATABASE_USER}
+    # neondb_owner
+    password: ${DATABASE_PASSWORD}
+    # 4yAJol2zpRgk
   contentmoderator:
-    token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Imp1bGlvLnF1aXNwZUB2YWxsZWdyYW5kZS5lZHUucGUifQ.6M-P2QMMvKFZEeMvTUXvkOooM02N_pWqt0OdlaYW3PM
+    token: ${TOKEN_API}
+    # eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Imp1bGlvLnF1aXNwZUB2YWxsZWdyYW5kZS5lZHUucGUifQ.6M-P2QMMvKFZEeMvTUXvkOooM02N_pWqt0OdlaYW3PM

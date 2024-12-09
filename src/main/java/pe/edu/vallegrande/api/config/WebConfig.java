@@ -9,9 +9,9 @@ public class WebConfig implements WebFluxConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping
-                        ("/**") // Permitir todas las rutas
-                .allowedOrigins("*") // Permitir todas las orígenes (ajusta según tus necesidades)
-                .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") // Métodos permitidos
-                .allowedHeaders("*"); // Permitir todos los headers
+                        ("/**")
+                .allowedOrigins("*")
+                .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") 
+                .allowedHeaders("*");
     }
 }
